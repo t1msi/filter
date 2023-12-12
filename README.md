@@ -41,6 +41,7 @@
 ```
 git clone https://github.com/t1msi/filter.git
 make all
+cd filter
 ./gensig 100 | ./MedianFilter 3
 
 ```
